@@ -15,7 +15,7 @@ const VideoControls = ({
 }) => {
   return (
     <div className="absolute bottom-0 md:static w-full flex flex-col md:flex-row gap-2 md:gap-4 justify-between items-center p-4 md:rounded-b-lg border-t border-gray-800 bg-white bg-opacity-80 md:bg-opacity-100">
-      <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 w-full ">
+      <div className="flex flex-col md:flex-row md:justify-center items-center gap-2 md:gap-4 w-full ">
         {recording && !paused && <Button onClick={pauseRecording} title="Pause" />}
 
         {recording && paused && <Button onClick={resumeRecording} title="Resume" />}
