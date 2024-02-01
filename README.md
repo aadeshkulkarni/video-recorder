@@ -1,6 +1,6 @@
 # Video-recorder App
 
-This app is a video recorder built using ReactJS and styled with Tailwindcss. 
+This app is a video recorder built using ReactJS and styled with Tailwindcss. [Recordio app link](https://recordio.netlify.app/)
 
 ## Setup Steps
 
